@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -126,10 +92,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -141,8 +103,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#history" id="toc-history" class="nav-link" data-scroll-target="#history">History</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  <li><a href="#changes-over-time" id="toc-changes-over-time" class="nav-link" data-scroll-target="#changes-over-time">Changes over time</a></li>
+  <li><a href="#svi-county-map-series" id="toc-svi-county-map-series" class="nav-link" data-scroll-target="#svi-county-map-series">SVI County Map Series</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -166,17 +138,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="st">"hello, world"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "hello, world"</code></pre>
-</div>
-</div>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>The Centers for Disease Control and Prevention and Agency for Toxic Substances and Disease Registry Social Vulnerability Index (hereafter, CDC/ATSDR SVI or SVI) was a place-based index, database, and mapping application designed to identify and quantify communities experiencing social vulnerability. The Geospatial Research, Analysis &amp; Services Program (GRASP) maintained the CDC/ATSDR SVI to help public health officials and local planners better prepare for and respond to emergency events with the goal of decreasing human suffering, economic loss, and health inequities.</p>
+</section>
+<section id="history" class="level2">
+<h2 class="anchored" data-anchor-id="history">History</h2>
+<p>The Pandemic and All-Hazards Preparedness Act of 2006 cited that public health preparedness and response capabilities were critical needs for the nation. CDC/ATSDR and the Office of Environmental Health Emergency Management (OEHEM) decided to address social vulnerability as it relates to natural or human-caused hazards and public health emergencies. In 2007, a group including social scientists, geographers, and a statistician within the Geospatial Research, Analysis, and Services Program (GRASP) began developing the Social Vulnerability Index. The first CDC/ATSDR SVI database was released in 2011 and the team published the SVI approach and methodology in the paper titled, “<a href="docs/Flanagan_2011_SVIforDisasterManagement-508.pdf">A Social Vulnerability Index for Disaster Management</a>” (Flanagan, B.E., Gregory, E.W., Hallisey, E.J., Heitgerd, J.L., &amp; Lewis, B. (2011).</p>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<p>The past CDC/ATSDR Social Vulnerability Index used 16 U.S. Census variables from the 5-year American Community Survey (ACS) to identify communities that may need support before, during, or after disasters. These variables were grouped into four themes that cover four major areas of social vulnerability and then combined into a single measure of overall social vulnerability.</p>
+<p><img src="img/SVI-Overall-Theme-Indicator-Image.png" class="img-fluid" alt="SVI Overall, Theme, Indicator Image"> Social Vulnerability Index variables grouped into four themes</p>
+<p>Access the CSV file of the <a href="Overall-Vulnerability-Table.csv">Overall Vulnerability</a> image shown above.</p>
+</section>
+<section id="changes-over-time" class="level2">
+<h2 class="anchored" data-anchor-id="changes-over-time">Changes over time</h2>
+<p>The CDC/ATSDR SVI changed four times over the years as can be seen in the timeline below:</p>
+<p><img src="img/SVI_Timeline-Graphic_V7.jpg" class="img-fluid" alt="CDC/ATSDR SVI Changes Over Time"> Timeline shows the years SVI changed its database – 2000, 2010, 2014, and 2020.</p>
+<p>Access the CSV file of the <a href="Changes-Over-Time-Table.csv">SVI Changes Over Time</a> image shown above.</p>
+</section>
+<section id="svi-county-map-series" class="level2">
+<h2 class="anchored" data-anchor-id="svi-county-map-series">SVI County Map Series</h2>
+<p>The CDC/ATSDR SVI County Map Series included maps of the overall social vulnerability scores, as well as the four themes. These maps depicted the SVI rankings of communities, at the census tract level, within a specified county.</p>
+<p><img src="img/County-Map-Series.png" class="img-fluid" alt="SVI County Map Series"> County Map Series</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -269,7 +257,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/beansrowning\.github\.io\/not_svi\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
