@@ -7,6 +7,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: https://www.arcgis.com/apps/InteractiveLegend/index.html?appid=4d92395405c844a49a36eea90aa6bbfb
+        icon: map
 
 format:
   html:

@@ -20,7 +20,7 @@ The past CDC/ATSDR Social Vulnerability Index used 16 U.S. Census variables from
 ![SVI Overall, Theme, Indicator Image](img/SVI-Overall-Theme-Indicator-Image.png)
 Social Vulnerability Index variables grouped into four themes
 
-Access the CSV file of the [Overall Vulnerability](Overall-Vulnerability-Table.csv) image shown above.
+Access the CSV file of the [Overall Vulnerability](img/Overall-Vulnerability-Table.csv) image shown above.
 
 ## Changes over time
 
@@ -29,7 +29,7 @@ The CDC/ATSDR SVI changed four times over the years as can be seen in the timeli
 ![CDC/ATSDR SVI Changes Over Time](img/SVI_Timeline-Graphic_V7.jpg)
 Timeline shows the years SVI changed its database – 2000, 2010, 2014, and 2020.
 
-Access the CSV file of the [SVI Changes Over Time](Changes-Over-Time-Table.csv) image shown above.
+Access the CSV file of the [SVI Changes Over Time](img/Changes-Over-Time-Table.csv) image shown above.
 
 ## SVI County Map Series
 
