@@ -7,6 +7,10 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: data/svi_interactive_map.csv
+        text: No Data Here
+      - href: docs/SVI2022Documentation_ZCTA.pdf
+        text: No Dictionary Here
       - href: https://www.arcgis.com/apps/InteractiveLegend/index.html?appid=4d92395405c844a49a36eea90aa6bbfb
         icon: map
 

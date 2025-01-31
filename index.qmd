@@ -5,6 +5,8 @@ format:
         code-fold: true
 ---
 
+I'm sorry to be the one to tell you, but unfortunately there's no SVI data here. I will not be regularly updating this repository in the event I find any SVI data either.
+
 ## Overview
 
 The Centers for Disease Control and Prevention and Agency for Toxic Substances and Disease Registry Social Vulnerability Index (hereafter, CDC/ATSDR SVI or SVI) was a place-based index, database, and mapping application designed to identify and quantify communities experiencing social vulnerability. The Geospatial Research, Analysis & Services Program (GRASP) maintained the CDC/ATSDR SVI to help public health officials and local planners better prepare for and respond to emergency events with the goal of decreasing human suffering, economic loss, and health inequities.
