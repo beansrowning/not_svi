@@ -14,7 +14,7 @@ The Pandemic and All-Hazards Preparedness Act of 2006 cited that public health p
 
 The past CDC/ATSDR Social Vulnerability Index used 16 U.S. Census variables from the 5-year American Community Survey (ACS) to identify communities that may need support before, during, or after disasters. These variables were grouped into four themes that cover four major areas of social vulnerability and then combined into a single measure of overall social vulnerability.
 
-![SVI Overall, Theme, Indicator Image](img\SVI-Overall-Theme-Indicator-Image.png)
+![SVI Overall, Theme, Indicator Image](img/SVI-Overall-Theme-Indicator-Image.png)
 Social Vulnerability Index variables grouped into four themes
 
 Access the CSV file of the [Overall Vulnerability](Overall-Vulnerability-Table.csv) image shown above.
@@ -23,7 +23,7 @@ Access the CSV file of the [Overall Vulnerability](Overall-Vulnerability-Table.c
 
 The CDC/ATSDR SVI changed four times over the years as can be seen in the timeline below:
 
-![CDC/ATSDR SVI Changes Over Time](img\SVI_Timeline-Graphic_V7.jpg)
+![CDC/ATSDR SVI Changes Over Time](img/SVI_Timeline-Graphic_V7.jpg)
 Timeline shows the years SVI changed its database – 2000, 2010, 2014, and 2020.
 
 Access the CSV file of the [SVI Changes Over Time](Changes-Over-Time-Table.csv) image shown above.
@@ -32,5 +32,5 @@ Access the CSV file of the [SVI Changes Over Time](Changes-Over-Time-Table.csv) 
 
 The CDC/ATSDR SVI County Map Series included maps of the overall social vulnerability scores, as well as the four themes. These maps depicted the SVI rankings of communities, at the census tract level, within a specified county.
 
-![SVI County Map Series](img\County-Map-Series.png)
+![SVI County Map Series](img/County-Map-Series.png)
 County Map Series
